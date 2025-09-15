@@ -1,0 +1,35 @@
+#include stdio.h
+history -c
+
+
+
+
+:q
+
+int main(){
+  char *buff = NULL;
+  size_t size = 0; 1 #include stdio.h
+  2
+  3 int main(){
+  4 ┆ char *buff = NULL;
+  5 ┆ size_t size = 0;
+  6 } lab1.c +
+  1 #include stdio.h
+  2
+  3 int main(){
+  4 ┆ char *buff = NULL;
+  5 ┆ size_t size = 0; 1 #include stdio.h
+  6 ┆ 2
+  7 ┆ 3 int main(){
+  8 ┆ 4 ┆ char *buff = NULL;
+  9 ┆ 5 ┆ size_t size = 0;
+ 10 ┆ 6 }
+ 11 }
+~
+
+
+
+  q
+:w
+i
+
